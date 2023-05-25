@@ -5,17 +5,18 @@ import { styled } from "styled-components";
 export const SectionContainer = styled.div`
  background-image: url('/bg2.png');
  background-size: cover;
-  background-position: center;
+background-position: center;
 
 `
 export const Container = styled.div`
   max-width: 1440px;
   margin: 0 auto;
-  min-height: calc(100vh - 34px);
+  min-height: 100vh;
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  
 `
 export const Content = styled.div`
   height: 100%;
@@ -23,7 +24,6 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: flex-start;
   max-width: 800px;
-  margin-top: 250px;
  
   h1 {
     
@@ -72,12 +72,17 @@ export const Icons = styled.ul`
 color: #fff;
 display: flex;
 gap: 20px;
+padding: 0;
+margin-top: 40px;
 
 `
 export const SocialLink = styled.a`
 color: #9E9E9E;
 border-radius: 50%;
 
+:hover{
+  color:#EC1C23;
+}
 
 
 `

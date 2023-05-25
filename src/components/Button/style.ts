@@ -1,18 +1,22 @@
 import { styled } from "styled-components";
 
-export const Content_Button = styled.button`
+export const Button = styled.button`
 width: 200px;
 height: 44px;
 background-color: #EC1C23;
-border-radius: 5px;
-color: #ffff;
+border-radius: 5px;;
 font-size: 20px;
- cursor: pointer;
+cursor: pointer;
+color: #ffff;
  
 
  &:hover {
-      background-color: transparent;
-      border: 1px solid #EC1C23;
-    }
+  background-color: transparent;
+  border: 1px solid #EC1C23;
+  color: ${(prop) => prop.color ? prop.color : '#ffff'};
+
+}
 
 `
+
+//  #EC1C23  #ffff ${props => props.color || '#EC1C23'};

@@ -20,7 +20,7 @@ export const SectionHome = () => {
             do condicionamento física, nutrição adequada e uma mentalidade
             aprimorada.
           </p>
-          <Button />
+          <Button hoverColor="white" />
         </S.Content>
         <S.Icons>
           <S.SocialLink

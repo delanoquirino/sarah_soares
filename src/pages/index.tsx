@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import { SectionHome } from "@/components/SectionHome";
 import { SectionInfo } from "@/components/SectionInfo";
+import { SectionPrograms } from "@/components/SectionPrograms";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <SectionHome />
         <SectionInfo />
+        <SectionPrograms />
       </main>
     </>
   );

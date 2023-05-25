@@ -3,6 +3,10 @@ import React from "react";
 //styles
 import * as S from "./style";
 
-export const Button = () => {
-  return <S.Content_Button>Entre em Contato</S.Content_Button>;
+interface ButtonProps {
+  hoverColor: string;
+}
+
+export const Button = ({ hoverColor }: ButtonProps) => {
+  return <S.Button color={hoverColor}>Entre em Contato</S.Button>;
 };

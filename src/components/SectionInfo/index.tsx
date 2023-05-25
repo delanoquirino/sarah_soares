@@ -1,13 +1,23 @@
 import React from "react";
 
+//style
 import * as S from "./styles";
+
+// component
 import { Button } from "../Button";
+
+//react-icons
+import { BsFillHeartPulseFill } from "react-icons/bs";
+import { IoIosFitness } from "react-icons/io";
+import { FaAppleAlt } from "react-icons/fa";
+import { AiOutlineCalendar } from "react-icons/ai";
 
 export const SectionInfo = () => {
   return (
     <S.SectionContainer id="#section_info">
       <S.Container>
         <S.Container_Content>
+          <span>EVERYBODY IS DIFFERENT</span>
           <h1>MAXIMIZE SUA VIDA</h1>
           <S.Container_Content_Text>
             <p>
@@ -28,11 +38,14 @@ export const SectionInfo = () => {
               aproveitar sua vida!
             </p>
           </S.Container_Content_Text>
-          <Button />
+          <Button hoverColor="red" />
         </S.Container_Content>
         <S.Container_Card>
           <div>
-            <h2>Analise Corporal</h2>
+            <S.Card_Title>
+              <BsFillHeartPulseFill />
+              <h2>Analise Corporal</h2>
+            </S.Card_Title>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
               necessitatibus fuga beatae suscipit fugiat tempora rem molestias,
@@ -41,7 +54,11 @@ export const SectionInfo = () => {
             </p>
           </div>
           <div>
-            <h2>Programas de Fitness</h2>
+            <S.Card_Title>
+              <IoIosFitness />
+              <h2>Programas de Fitness</h2>
+            </S.Card_Title>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
               necessitatibus fuga beatae suscipit fugiat tempora rem molestias,
@@ -50,7 +67,11 @@ export const SectionInfo = () => {
             </p>
           </div>
           <div>
-            <h2>Saude e Nutrição</h2>
+            <S.Card_Title>
+              <FaAppleAlt />
+              <h2>Saude e Nutrição</h2>
+            </S.Card_Title>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
               necessitatibus fuga beatae suscipit fugiat tempora rem molestias,
@@ -59,7 +80,11 @@ export const SectionInfo = () => {
             </p>
           </div>
           <div>
-            <h2>Flexibilidade</h2>
+            <S.Card_Title>
+              <AiOutlineCalendar />
+              <h2>Flexibilidade</h2>
+            </S.Card_Title>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
               necessitatibus fuga beatae suscipit fugiat tempora rem molestias,
