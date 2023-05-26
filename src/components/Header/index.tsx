@@ -12,7 +12,7 @@ export const Header = () => {
     <S.Header>
       <S.Container>
         <div>
-          <Image width={60} height={70} alt="logo" src={logo} />
+          <Image width={40} height={50} alt="logo" src={logo} />
         </div>
         <div>
           <S.List>
