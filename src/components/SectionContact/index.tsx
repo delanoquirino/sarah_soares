@@ -31,18 +31,20 @@ export const SectionContact = () => {
             <h2>Get in Touch</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-              odio. Quisque volutpat mattis eros.
+              odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis
+              eros.
             </p>
             <S.Icon>
               <S.Icon_Item>
-                <MdOutlineEmail /> email@email.com
+                <MdOutlineEmail /> <span>email@email.com</span>
               </S.Icon_Item>
-              <S.Icon_Item>
+              <S.Icon_Item href="https://wa.link/67z1ua" target="_blank">
                 <BsWhatsapp />
-                123123123123
+                <span>123123123123</span>
               </S.Icon_Item>
-              <S.Icon_Item>
-                <BsInstagram /> instagram
+              <S.Icon_Item href="https://www.instagram.com/treinadora_sarahsoares/">
+                <BsInstagram /> <span>instagram</span>
               </S.Icon_Item>
             </S.Icon>
           </S.Content>

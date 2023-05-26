@@ -36,8 +36,8 @@ export const Content = styled.div`
     font-size: 22px;
   }
 
-  @media (max-width: 800px)
-{
+  @media (max-width: 800px){
+    
   h1 {
     
     font-size: 43px;
@@ -45,7 +45,7 @@ export const Content = styled.div`
   }
 
   p{
-    
+    line-height: 1.5;
     font-size: 18px;
   }
 }
