@@ -6,21 +6,17 @@ import * as S from "./styles";
 // component
 import { Button } from "../Button";
 
-//react-icons
-import { BsFillHeartPulseFill } from "react-icons/bs";
-import { IoIosFitness } from "react-icons/io";
-import { FaAppleAlt } from "react-icons/fa";
-import { AiOutlineCalendar } from "react-icons/ai";
-
 //Image
 import Image from "next/image";
-import cross from "../../../public/crossfit.png";
 import crossfit from "../../../public/logo3.png";
 
 export const SectionPrograms = () => {
   return (
     <S.SectionContainer id="#section_info">
       <S.Container>
+        <S.Container_Image>
+          <Image src={crossfit} width={300} height={550} alt="crossfit" />
+        </S.Container_Image>
         <S.Container_Content>
           <h1>MAXIMIZE SUA VIDA</h1>
           <S.Container_Content_Text>
@@ -44,9 +40,6 @@ export const SectionPrograms = () => {
           </S.Container_Content_Text>
           <Button hoverColor="red" />
         </S.Container_Content>
-        <S.Container_Image>
-          <Image src={crossfit} width={300} height={550} alt="crossfit" />
-        </S.Container_Image>
       </S.Container>
     </S.SectionContainer>
   );

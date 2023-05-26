@@ -8,7 +8,7 @@ border-radius: 5px;;
 font-size: 20px;
 cursor: pointer;
 color: #ffff;
- 
+ transition: background-color  0.4s ease;
 
  &:hover {
   background-color: transparent;

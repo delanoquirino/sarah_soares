@@ -1,3 +1,4 @@
+import { Button } from './../Button/style';
 import { styled } from "styled-components"
 
 export const SectionContainer = styled.div`
@@ -22,7 +23,15 @@ export const Container_Content = styled.div`
     color: #EC1C23;
     font-size: 45px;
     margin-bottom: 40px;
+
+    
   }
+
+  button {
+    width: 100%;
+  }
+
+ 
 
 `
 export const Container_Content_Text = styled.div`
@@ -31,12 +40,13 @@ export const Container_Content_Text = styled.div`
     color: #fff;
     font-size: 21px}
 
+  
+
 `
 
 
 export const Container_Image = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
 
 `

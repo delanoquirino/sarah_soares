@@ -61,16 +61,16 @@ export const FTextArea = styled.textarea`
 
 export const FButton = styled.button`
   padding: 10px;
-  background-image: linear-gradient(to right, #EC1C23, #FF6B6E);
+  background-image: linear-gradient(to right, #EC1C23,#eb6569, #FF6B6E);
   color: #fff;
   border: none;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: background-image 0.3s ease;
+  transition: background-image, box-shadow 0.5s ease;
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-image: linear-gradient(to right,  #FF6B6E, #EC1C23);
+    background-image: linear-gradient(to right,  #FF6B6E, #eb6569, #EC1C23);
   }
  
 `;
