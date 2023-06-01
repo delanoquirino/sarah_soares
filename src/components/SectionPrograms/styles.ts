@@ -13,8 +13,9 @@ export const Container = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  align-content: center;
   justify-content: center;
+  
   
   
 
@@ -61,12 +62,14 @@ export const Container_Content = styled.div`
   button {
     margin-top: 40px;
   }
+ 
 
 `
 
 
 
 export const Container_Image = styled.div`
+  border: 2px solid blue;
   display: flex;
   align-items: center;
   justify-content: center;

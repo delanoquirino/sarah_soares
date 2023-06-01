@@ -7,6 +7,7 @@ export const SectionContainer = styled.div`
  background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+background-attachment: fixed;
 
 `
 export const Container = styled.div`
