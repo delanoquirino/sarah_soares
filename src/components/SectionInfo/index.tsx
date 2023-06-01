@@ -14,8 +14,8 @@ import { AiOutlineCalendar } from "react-icons/ai";
 
 export const SectionInfo = () => {
   return (
-    <S.SectionContainer id="#section_info">
-      <S.Container>
+    <S.SectionContainer >
+      <S.Container id="sectionInfo">
         <S.Container_Content>
           <span>EVERYBODY IS DIFFERENT</span>
           <h1>MAXIMIZE SUA VIDA</h1>

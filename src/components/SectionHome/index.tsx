@@ -12,7 +12,7 @@ import * as S from "./styles";
 export const SectionHome = () => {
   return (
     <S.SectionContainer>
-      <S.Container>
+      <S.Container id="sectionHome">
         <S.Content>
           <h1>SARAH SOARES</h1>
           <p>

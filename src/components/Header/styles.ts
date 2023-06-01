@@ -1,7 +1,8 @@
 'use client'
 
+import { Link } from "react-scroll";
 import { styled } from "styled-components";
-import Link from "next/link";
+
 
 export const Header = styled.header`
     background: black;
@@ -16,10 +17,16 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: 10px;
 
+    a {
+        cursor: pointer;
+    }
+
 `
 export const List = styled.ul`
     display: flex;
     gap: 40px;
+
+   
 `
 export const List_Link = styled(Link)`
     color: #ffff;
@@ -30,4 +37,13 @@ export const List_Link = styled(Link)`
     &:hover {
         color:#EC1C23;
     }
+`
+
+export const Container_List = styled.div`
+    display: none;
+    gap: 40px;
+
+    @media (min-width: 1024px) {
+      display: flex
+  }
 `

@@ -1,15 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color:#591508;
+  background-color:#0F0F15;
   position: fixed;
   height: 100%;
   top: 0px;
   right: 0px;
-  width: 28%;
+  width: 48%;
   right: ${props => props.sidebar ? '0' : '-100%'};
   animation: showSidebar .4s;
-  
   
    
   @media (max-width: 800px)

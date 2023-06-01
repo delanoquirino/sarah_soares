@@ -85,6 +85,11 @@ gap: 10px;
 font-size: 16px;
 text-decoration: none;
 color: #130D2E;
+width: fit-content;
+
+
+
+
 
 
 `
@@ -178,18 +183,16 @@ gap: 10px;
 margin: 20px 0;
   
 
-div {
-  color: #e7e7e7;
   svg {
+  color: #e7e7e7;
   height: auto;
   width: 30px;
   padding: 10px;
-  
-}
+  }
 
   :hover {
     color:  #EC1C23;
   }
-}
+
   
 `

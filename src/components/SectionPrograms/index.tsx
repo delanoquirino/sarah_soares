@@ -12,10 +12,10 @@ import crossfit from "../../../public/logo3.png";
 
 export const SectionPrograms = () => {
   return (
-    <S.SectionContainer id="#section_info">
+    <S.SectionContainer id="sectionPrograms">
       <S.Container>
         <S.Container_Image>
-          <Image src={crossfit} width={300} height={550} alt="crossfit" />
+          <Image src={crossfit} width={250} height={500} alt="crossfit" />
         </S.Container_Image>
         <S.Container_Content>
           <h1>MAXIMIZE SUA VIDA</h1>

@@ -6,27 +6,31 @@ import logo from "../../../public/logo.svg";
 
 //styles
 import * as S from "./styles";
+import { MenuMobile } from "../MenuMobile";
+import { Link } from "react-scroll";
+
 
 export const Header = () => {
   return (
     <S.Header>
       <S.Container>
-        <div>
+        <Link to="sectionHome" spy={true} smooth={true} offset={50} duration={500}>
           <Image width={40} height={50} alt="logo" src={logo} />
-        </div>
-        <div>
+        </Link>
+        <MenuMobile />
+        <S.Container_List>
           <S.List>
             <li>
-              <S.List_Link href="/">Treinamento Pessoal</S.List_Link>
+              <S.List_Link to="sectionInfo" spy={true} smooth={true} offset={50} duration={500}>Treinamento Pessoal</S.List_Link>
             </li>
             <li>
-              <S.List_Link href="section_info">Saúde e Nutrição</S.List_Link>
+              <S.List_Link to="sectionPrograms" spy={true} smooth={true} offset={50} duration={500}>Saúde e Nutrição</S.List_Link>
             </li>
             <li>
-              <S.List_Link href={"/"}>Entre em Contato</S.List_Link>
+              <S.List_Link to="sectionContact" spy={true} smooth={true} offset={50} duration={500}>Entre em Contato</S.List_Link>
             </li>
           </S.List>
-        </div>
+        </S.Container_List>
       </S.Container>
     </S.Header>
   );

@@ -14,6 +14,9 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  justify-content: center;
+  
+  
 
   @media (max-width: 1024px) {
     display: flex;
@@ -65,6 +68,8 @@ export const Container_Content = styled.div`
 
 export const Container_Image = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   @media (max-width: 1024px) {
    display: none;
     

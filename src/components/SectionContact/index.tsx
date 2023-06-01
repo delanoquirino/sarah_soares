@@ -10,6 +10,7 @@ import Image from "next/image";
 
 // image
 import crossfit from "../../../public/logo3.png";
+import Link from "next/link";
 
 type FormValues = {
   nome: string;
@@ -25,9 +26,9 @@ export const SectionContact = () => {
   };
   return (
     <>
-      <S.SectionContainer id="#section_info">
-        <S.Container>
-          <S.Content>
+      <S.SectionContainer >
+        <S.Container >
+          <S.Content id="sectionContact">
             <h2>Get in Touch</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
@@ -41,10 +42,10 @@ export const SectionContact = () => {
               </S.Icon_Item>
               <S.Icon_Item href="https://wa.link/67z1ua" target="_blank">
                 <BsWhatsapp />
-                <span>123123123123</span>
+                <span>(86) 99466-4490</span>
               </S.Icon_Item>
-              <S.Icon_Item href="https://www.instagram.com/treinadora_sarahsoares/">
-                <BsInstagram /> <span>instagram</span>
+              <S.Icon_Item href="https://www.instagram.com/treinadora_sarahsoares/" target="_blank">
+                <BsInstagram /> <span>@treinadora_sarahsoares</span>
               </S.Icon_Item>
             </S.Icon>
           </S.Content>
@@ -69,13 +70,21 @@ export const SectionContact = () => {
       <S.Footer>
         <S.Footer_Icons>
           <div>
+            <Link href="/">
             <MdOutlineEmail />
+            </Link>
+            
           </div>
           <div>
-            <BsWhatsapp />
+            <Link  href="https://wa.link/67z1ua" target="_blank">
+              <BsWhatsapp />
+            </Link>
           </div>
           <div>
-            <BsInstagram />
+            <Link href="https://www.instagram.com/treinadora_sarahsoares/"
+            target="_blank">
+              <BsInstagram />
+            </Link>
           </div>
         </S.Footer_Icons>
         <span>
