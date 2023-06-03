@@ -69,7 +69,7 @@ export const Container_Content = styled.div`
 
 
 export const Container_Image = styled.div`
-  border: 2px solid blue;
+ 
   display: flex;
   align-items: center;
   justify-content: center;

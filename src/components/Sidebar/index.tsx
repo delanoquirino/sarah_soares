@@ -23,12 +23,7 @@ export const Sidebar = ({ active }) => {
         <Link to="sectionContact" spy={true} smooth={true} offset={50} duration={500} onClick={closeSidebar}>Entre em Contato</Link>
        
       </S.Content>
-      <S.Contact>
-        <span>(86) 86 99466-4490</span>
-        <S.Address>
-          endereço
-        </S.Address>
-      </S.Contact>
+     
     </S.Container>
   )
 }

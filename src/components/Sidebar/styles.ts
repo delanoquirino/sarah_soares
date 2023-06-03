@@ -55,26 +55,11 @@ export const Content = styled.div`
       transition: 0.2 ease-in-out;
       cursor: pointer;
      &:hover {
-      color: #000;
-      background-color: #d8d0d0;
+      
+      background-color: #EC1C23;
      
      }
       
     }
 `;
 
-
-export const Contact = styled.div`
-  margin-top: 2rem;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  
-`
-export const Address = styled.div`
-  text-align: center;
-  padding: 1rem;
-  
-`
