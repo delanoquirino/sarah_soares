@@ -31,19 +31,19 @@ export const GlobalStyle = createGlobalStyle`
 
   @media (max-width: 1240px) {
   body {
-    font-size: 95%; 
+    font-size: 90%; 
   }
 }
 
     @media (max-width: 768px) {
   body {
-    font-size: 90%; 
+    font-size: 85%; 
   }
 }
 
 @media (max-width: 480px) {
   body {
-    font-size: 80%; 
+    font-size: 84%; 
   }
 }
 
