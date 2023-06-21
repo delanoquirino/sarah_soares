@@ -21,10 +21,10 @@ export const Header = () => {
         <S.Container_List>
           <S.List>
             <li>
-              <S.List_Link to="sectionInfo" spy={true} smooth={true} offset={50} duration={500}>Treinamento Pessoal</S.List_Link>
+              <S.List_Link to="sectionInfo" spy={true} smooth={true} offset={50} duration={500}>Descubra o seu Potencial</S.List_Link>
             </li>
             <li>
-              <S.List_Link to="sectionPrograms" spy={true} smooth={true} offset={50} duration={500}>Saúde e Nutrição</S.List_Link>
+              <S.List_Link to="sectionPrograms" spy={true} smooth={true} offset={50} duration={500}>Transforme sua Vida</S.List_Link>
             </li>
             <li>
               <S.List_Link to="sectionContact" spy={true} smooth={true} offset={50} duration={500}>Entre em Contato</S.List_Link>
