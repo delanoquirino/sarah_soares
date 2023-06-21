@@ -32,9 +32,7 @@ export const SectionHome = () => {
           <S.SocialLink href="https://wa.link/67z1ua" target="_blank">
             <BsWhatsapp />
           </S.SocialLink>
-          <S.SocialLink>
-            <BsFacebook />
-          </S.SocialLink>
+          
         </S.Icons>
       </S.Container>
     </S.SectionContainer>

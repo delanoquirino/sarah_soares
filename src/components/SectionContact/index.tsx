@@ -6,10 +6,10 @@ import { MdOutlineEmail } from "react-icons/md";
 
 // styles
 import * as S from "./styles";
-import Image from "next/image";
+
 
 // image
-import crossfit from "../../../public/logo3.png";
+
 import Link from "next/link";
 
 type FormValues = {
@@ -29,17 +29,11 @@ export const SectionContact = () => {
       <S.SectionContainer >
         <S.Container >
           <S.Content id="sectionContact">
-            <h2>Get in Touch</h2>
+            <h2>Entre em contato para iniciar sua jornada fitness!</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-              odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet,
-              consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis
-              eros.
+             Estou animada para ajudá-lo a alcançar seus objetivos de condicionamento físico! Se você está pronto para embarcar em uma jornada de transformação, entre em contato comigo hoje mesmo.
             </p>
             <S.Icon>
-              <S.Icon_Item>
-                <MdOutlineEmail /> <span>email@email.com</span>
-              </S.Icon_Item>
               <S.Icon_Item href="https://wa.link/67z1ua" target="_blank">
                 <BsWhatsapp />
                 <span>(86) 99466-4490</span>
@@ -50,7 +44,7 @@ export const SectionContact = () => {
             </S.Icon>
           </S.Content>
           <S.FormContainer onSubmit={handleSubmit(onSubmit)}>
-            <h3>Say Hello</h3>
+            <h3>Mande sua Mensagem agora !</h3>
             <S.FormData>
               <S.FLabel>Nome:</S.FLabel>
               <S.FInput type="text" name="nome" />

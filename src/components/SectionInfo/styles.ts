@@ -33,13 +33,15 @@ export const Container_Content = styled.div`
     font-style: italic;
     font-weight: bold;
     color: #EC1C23;
+    
 
   }
 
   h1 {
     color: #2A3281;
-    font-size: 45px;
+    font-size: 2.813em;
     margin-bottom: 40px;
+    text-transform: uppercase;
   }
 
   @media (max-width: 1024px) {
@@ -47,7 +49,7 @@ export const Container_Content = styled.div`
     border-bottom: 2px #EC1C23 solid;
     h1 {
    
-    font-size: 43px;
+    font-size: 2.688em;
    
   }
   }
@@ -60,12 +62,12 @@ export const Container_Content = styled.div`
 export const Container_Content_Text = styled.div`
   padding-right: 140px;
   margin-bottom: 60px;
-  p { font-size: 21px}
+  p { font-size: 1.313em}
 
   @media (max-width: 1024px) {
     
       padding-right: 0%;
-      p { font-size: 18px}
+      p { font-size: 1.125em}
   }
 
 `

@@ -34,7 +34,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 1.5;
 }
 
@@ -82,7 +82,7 @@ export const Icon_Item = styled.a`
 display: flex;
 align-items: center;
 gap: 10px;
-font-size: 16px;
+font-size: 1em;
 text-decoration: none;
 color: #130D2E;
 width: fit-content;

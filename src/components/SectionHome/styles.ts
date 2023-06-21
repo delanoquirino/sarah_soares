@@ -29,26 +29,26 @@ export const Content = styled.div`
  
   h1 {
     
-    font-size: 68px;
+    font-size: 3.75em;
     color: #ffff;
   }
 
   p{
     color: #ffff;
-    font-size: 22px;
+    font-size: 1.375em;
   }
 
   @media (max-width: 800px){
     
   h1 {
     
-    font-size: 43px;
+    font-size: 2.688em;
     
   }
 
   p{
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 1.125em;
   }
 }
 
@@ -60,7 +60,7 @@ height: 44px;
 background-color: #EC1C23;
 border-radius: 5px;
 color: #ffff;
-font-size: 20px;
+font-size: 1.25em;
  cursor: pointer;
  
 

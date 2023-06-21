@@ -34,6 +34,7 @@ export const Container_Content = styled.div`
     color: #EC1C23;
     font-size: 45px;
     margin-bottom: 40px;
+    text-transform: uppercase;
 
     
   }
@@ -50,12 +51,12 @@ export const Container_Content = styled.div`
   @media (max-width: 1024px) {
     h1 {
    
-    font-size: 43px;
+    font-size: 2.688em;
        
   }
 
   p { 
-    font-size: 18px}
+    font-size: 1.125em}
     
   }
 

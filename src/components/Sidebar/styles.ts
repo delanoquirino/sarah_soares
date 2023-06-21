@@ -48,8 +48,8 @@ export const Content = styled.div`
   gap: 1rem;
   
     a {
-      font-size: 20px;
-      padding: 1rem;
+      font-size: 1.25em;
+      padding: 16px;
       width: 100%;
       text-align: center;
       transition: 0.2 ease-in-out;
