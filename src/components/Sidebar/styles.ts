@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+interface ContainerProps {
+  propsidebar: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   background-color:#0F0F15;
   position: fixed;
   height: 100%;
   top: 0px;
   right: 0px;
   width: 48%;
-  right: ${props => (props.sidebar ? '0' : '-100%')};
+  right: ${props => (props.propsidebar ? '0' : '-100%')};
   animation: showSidebar .4s;
   
    

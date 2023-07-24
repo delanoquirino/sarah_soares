@@ -4,20 +4,18 @@ import { AiOutlineClose } from 'react-icons/ai';
 import * as S from './styles'
 import { Link } from 'react-scroll';
 
-
-interface SideBarProp {
-  sidebar: boolean,
-  setSidebar: boolean,
+interface SidebarProps {
+  sidebar: boolean;
+  setSidebar: React.Dispatch<React.SetStateAction<boolean>>;
 }
-
-export const Sidebar = ( { sidebar, setSidebar }:SideBarProp ) => {
+export const Sidebar = ( { sidebar, setSidebar }:SidebarProps ) => {
 
   const closeSidebar = () => {
     setSidebar(false)
   }
 
   return (
-    <S.Container sidebar={sidebar}>
+    <S.Container propsidebar={sidebar}>
 
       <AiOutlineClose onClick={closeSidebar} />
       <S.Content>
