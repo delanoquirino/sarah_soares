@@ -5,14 +5,19 @@ import * as S from './styles'
 import { Link } from 'react-scroll';
 
 
-export const Sidebar = ({ active }) => {
+interface SideBarProp {
+  sidebar: boolean,
+  setSidebar: boolean,
+}
+
+export const Sidebar = ( { sidebar, setSidebar }:SideBarProp ) => {
 
   const closeSidebar = () => {
-    active(false)
+    setSidebar(false)
   }
 
   return (
-    <S.Container sidebar={active}>
+    <S.Container sidebar={sidebar}>
 
       <AiOutlineClose onClick={closeSidebar} />
       <S.Content>
