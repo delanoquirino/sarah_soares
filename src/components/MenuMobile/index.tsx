@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Sidebar } from '../Sidebar'; 
 import * as S from "./styles";
@@ -12,7 +12,7 @@ export const MenuMobile = () => {
   return (
     <S.Container>
       <GiHamburgerMenu onClick={showSiderbar} />
-      {sidebar && <Sidebar sidebar={setSidebar} setSidebar={setSidebar} />}
+      {sidebar && <Sidebar sidebar={sidebar} setSidebar={setSidebar} />}
     </S.Container>
   );
 };

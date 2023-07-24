@@ -5,7 +5,7 @@ width: 200px;
 height: 44px;
 background-color: #EC1C23;
 border-radius: 5px;;
-font-size: 20px;
+
 cursor: pointer;
 color: #ffff;
  transition: background-color  0.4s ease;
@@ -18,5 +18,3 @@ color: #ffff;
 }
 
 `
-
-//  #EC1C23  #ffff ${props => props.color || '#EC1C23'};

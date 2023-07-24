@@ -29,7 +29,7 @@ export const SectionContact = () => {
       <S.SectionContainer >
         <S.Container >
           <S.Content id="sectionContact">
-            <h2>Entre em contato para iniciar sua jornada fitness!</h2>
+            <h2>Entre em contato</h2>
             <p>
              Estou animada para ajudá-lo a alcançar seus objetivos de condicionamento físico! Se você está pronto para embarcar em uma jornada de transformação, entre em contato comigo hoje mesmo.
             </p>

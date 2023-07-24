@@ -31,7 +31,7 @@ export const List = styled.ul`
 export const List_Link = styled(Link)`
     color: #ffff;
     cursor: pointer;
-    font: 16px;
+    
     font-style: italic;
     font-weight: bold;
     &:hover {

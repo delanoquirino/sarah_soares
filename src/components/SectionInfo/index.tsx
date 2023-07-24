@@ -21,13 +21,12 @@ export const SectionInfo = () => {
           <h1>Descubra o seu potencial!</h1>
           <S.Container_Content_Text>
             <p>
-            Chegou a hora de deixar de lado a espera e buscar sua melhor forma! Estou aqui para ajudá-lo a esculpir um corpo que se alinhe perfeitamente ao seu estilo de vida e a mantê-lo em todos os aspectos da vida. Por que abrir mão das coisas que você tanto gosta de fazer? Irei acompanhá-lo em todas as etapas da transformação do seu corpo, desde a nutrição até o exercício, explorando até mesmo a sua estrutura molecular.
-            </p>
+            Chegou a hora de deixar de lado a espera e buscar sua melhor forma! Estou aqui para ajudá-lo a esculpir um corpo que se alinhe perfeitamente ao seu estilo de vida e a mantê-lo em todos os aspectos da vida.</p>
             <p>
-            A personalização desempenha um papel fundamental na obtenção dos melhores resultados possíveis, por isso meus programas de treinamento são adaptados para atender às suas metas individuais de condicionamento físico e ao seu nível atual. Não importa se você é um iniciante ou um entusiasta experiente do fitness, minha masterclass de fitness foi cuidadosamente elaborada para ajudá-lo a atingir seus objetivos e desfrutar plenamente da vida. Descubra o seu potencial único e embarque nessa jornada de transformação!
+            Meus programas de treinamento são adaptados para atender às suas metas individuais de condicionamento físico e ao seu nível atual. Não importa se você é um iniciante ou um entusiasta experiente do fitness, meu programa de treinamento foi cuidadosamente elaborada para ajudá-lo a atingir seus objetivos e desfrutar plenamente da vida. Descubra o seu potencial único e embarque nessa jornada de transformação!
             </p>
           </S.Container_Content_Text>
-          <Button hoverColor="red" />
+      
         </S.Container_Content>
         <S.Container_Card>
           <div>

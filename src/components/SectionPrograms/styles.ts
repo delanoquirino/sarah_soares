@@ -15,14 +15,18 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
   justify-content: center;
+  padding-top: 8em;
+  padding-bottom: 8em;
   
-  
+  @media (max-width: 640px) {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
   
 
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column-reverse;
-    margin: 40px 0;
     min-height: 50vh;
     
   }
@@ -32,7 +36,7 @@ export const Container_Content = styled.div`
   
   h1 {
     color: #EC1C23;
-    font-size: 45px;
+   
     margin-bottom: 40px;
     text-transform: uppercase;
 
@@ -41,27 +45,15 @@ export const Container_Content = styled.div`
   margin-bottom: 60px;
   p { 
     color: #fff;
-    font-size: 21px}
+   }
 
 
   button {
     width: 100%;
   }
   
-  @media (max-width: 1024px) {
-    h1 {
-   
-    font-size: 2.688em;
-       
-  }
-
-  p { 
-    font-size: 1.125em}
-    
-  }
-
   button {
-    margin-top: 40px;
+    margin-top: 20px;
   }
  
 

@@ -1,10 +1,9 @@
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
 export const SectionContainer = styled.div`
-background-color: #ffff;
- border-top: 5px solid red;
-
-`
+  background-color: #ffff;
+  border-top: 5px solid red;
+`;
 export const Container = styled.div`
   max-width: 1440px;
   min-height: 70vh;
@@ -18,84 +17,57 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
   }
-
-  
-  
-`
+`;
 
 export const Content = styled.div`
+  margin-right: 130px;
+  height: 70%;
 
-margin-right: 130px;
-height: 70%;
-
-h2 {
-  font-size: 36px;
-  color:#EC1C23;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-p {
-  font-size: 1.125em;
-  line-height: 1.5;
-}
-
-span {
-
-}
-
-svg {
-  width: 20px;
-  height: auto;
-}
-
-@media (max-width: 1024px) {
-      width: 100%;
-      margin-right: 0;
+  h2 {
+    color: #ec1c23;
+    text-transform: uppercase;
+    font-style: italic;
   }
-`
+
+  svg {
+    width: 20px;
+    height: auto;
+  }
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    margin-right: 0;
+  }
+`;
 export const Icon = styled.div`
-display: flex;
-flex-direction: column;
-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
-a:hover {
-  
-color: #EC1C23;
+  a:hover {
+    color: #ec1c23;
+  }
 
-}
-
-@media (max-width: 1024px) {
-      width: 100%;
-      flex-direction: row;
-      margin: 30px 0;
-      justify-content: center;
-      gap: 30px;
+  @media (max-width: 1024px) {
+    width: 100%;
+    flex-direction: row;
+    margin: 30px 0;
+    gap: 30px;
   }
 
   @media (max-width: 540px) {
-      gap: 10px;
-      flex-direction: column;
-     
+    gap: 10px;
+    flex-direction: column;
   }
-  
-`
+`;
 export const Icon_Item = styled.a`
-display: flex;
-align-items: center;
-gap: 10px;
-font-size: 1em;
-text-decoration: none;
-color: #130D2E;
-width: fit-content;
-
-
-
-
-
-
-`
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #130d2e;
+  width: fit-content;
+`;
 
 export const FormContainer = styled.form`
   display: flex;
@@ -108,13 +80,11 @@ export const FormContainer = styled.form`
     margin-top: 40px;
     width: 100%;
   }
-  
 `;
 
 export const FLabel = styled.label`
   font-weight: bold;
-  color:  #130D2E;
-
+  color: #130d2e;
 `;
 
 export const FInput = styled.input`
@@ -122,8 +92,7 @@ export const FInput = styled.input`
   border-bottom: 1px solid #e7e7e7;
   outline: none;
   padding: 5px;
-  color: #2A3281;
-
+  color: #2a3281;
 `;
 
 export const FTextArea = styled.textarea`
@@ -131,12 +100,11 @@ export const FTextArea = styled.textarea`
   border-bottom: 1px solid #e7e7e7;
   outline: none;
   padding: 5px;
-
 `;
 
 export const FButton = styled.button`
   padding: 10px;
-  background-image: linear-gradient(to right, #EC1C23,#eb6569, #FF6B6E);
+  background-image: linear-gradient(to right, #ec1c23, #eb6569, #ff6b6e);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -145,56 +113,48 @@ export const FButton = styled.button`
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-image: linear-gradient(to right,  #FF6B6E, #eb6569, #EC1C23);
+    background-image: linear-gradient(to right, #ff6b6e, #eb6569, #ec1c23);
   }
- 
 `;
 
 export const FormData = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
-`
-
+`;
 
 export const Footer = styled.footer`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 10px;
-
-span {
-  color: #ffff;
-  padding: 20px;
-}
-
-@media (max-width: 540px) {
   span {
-  font-size: 12px;
-}
+    color: #ffff;
+    padding: 20px;
   }
-  
-`
+
+  @media (max-width: 540px) {
+    span {
+      font-size: 12px;
+    }
+  }
+`;
 
 export const Footer_Icons = styled.div`
-display: flex;
-align-items: center;
-gap: 10px;
-margin: 20px 0;
-  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
 
   svg {
-  color: #e7e7e7;
-  height: auto;
-  width: 30px;
-  padding: 10px;
+    color: #e7e7e7;
+    height: auto;
+    width: 30px;
+    padding: 10px;
   }
 
   :hover {
-    color:  #EC1C23;
+    color: #ec1c23;
   }
-
-  
-`
+`;

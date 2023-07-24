@@ -8,11 +8,22 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     background-color: black;
     font-size: 100%;
-
    
-    
     h1 {
       margin: 0;
+      font-size: 1.5rem; 
+		  
+    }
+
+    h2 {
+      font-size: 1.5rem; 
+		 
+    }
+
+    p,a {
+      font-size: 1rem; 
+		  
+
     }
 
     a {
@@ -29,21 +40,40 @@ export const GlobalStyle = createGlobalStyle`
     
   }
 
-  @media (max-width: 1240px) {
+    @media (min-width: 768px) {
   body {
-    font-size: 90%; 
+    h1 {
+      font-size: 3.75rem;
+		 
+    }
+    h2 {
+      font-size: 2.25rem; 
+		  
+    }
+    p,a {
+      font-size: 1.25rem; 
+		   
+    }
+    
   }
 }
 
-    @media (max-width: 768px) {
+@media (min-width: 640px) {
   body {
-    font-size: 85%; 
-  }
-}
+    h1 {
+      font-size: 3rem; 
+		  
+    }
+    h2 {
+      font-size: 1.875rem; 
+		
+    }
 
-@media (max-width: 480px) {
-  body {
-    font-size: 84%; 
+    p,a {
+      font-size: 1.125rem; 
+		   
+    }
+   
   }
 }
 
