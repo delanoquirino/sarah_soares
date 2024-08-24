@@ -1,14 +1,14 @@
 "use client"
 
 import { AiOutlineClose } from 'react-icons/ai';
-import * as S from './styles'
 import { Link } from 'react-scroll';
+import * as S from './styles';
 
 interface SidebarProps {
   sidebar: boolean;
   setSidebar: React.Dispatch<React.SetStateAction<boolean>>;
 }
-export const Sidebar = ( { sidebar, setSidebar }:SidebarProps ) => {
+export const Sidebar = ({ sidebar, setSidebar }: SidebarProps) => {
 
   const closeSidebar = () => {
     setSidebar(false)
@@ -20,13 +20,14 @@ export const Sidebar = ( { sidebar, setSidebar }:SidebarProps ) => {
       <AiOutlineClose onClick={closeSidebar} />
       <S.Content>
         <Link to="sectionInfo" spy={true} smooth={true} offset={50} duration={500} onClick={closeSidebar}>Treinamento Pessoal</Link>
-       
+
         <Link to="sectionPrograms" spy={true} smooth={true} offset={50} duration={500} onClick={closeSidebar}>Saúde e Nutrição</Link>
-       
+
+        <Link to="sectionCertificates" spy={true} smooth={true} offset={50} duration={500} onClick={closeSidebar}>Certificados</Link>
         <Link to="sectionContact" spy={true} smooth={true} offset={50} duration={500} onClick={closeSidebar}>Entre em Contato</Link>
-       
+
       </S.Content>
-     
+
     </S.Container>
   )
 }

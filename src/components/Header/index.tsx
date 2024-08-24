@@ -1,13 +1,12 @@
 import Image from "next/image";
-import React from "react";
 
 // image
 import logo from "../../../public/logo.svg";
 
 //styles
-import * as S from "./styles";
-import { MenuMobile } from "../MenuMobile";
 import { Link } from "react-scroll";
+import { MenuMobile } from "../MenuMobile";
+import * as S from "./styles";
 
 
 export const Header = () => {
@@ -27,8 +26,12 @@ export const Header = () => {
               <S.List_Link to="sectionPrograms" spy={true} smooth={true} offset={50} duration={500}>Transforme sua Vida</S.List_Link>
             </li>
             <li>
+              <S.List_Link to="sectionCertificates" spy={true} smooth={true} offset={50} duration={500}>Certificados</S.List_Link>
+            </li>
+            <li>
               <S.List_Link to="sectionContact" spy={true} smooth={true} offset={50} duration={500}>Entre em Contato</S.List_Link>
             </li>
+
           </S.List>
         </S.Container_List>
       </S.Container>

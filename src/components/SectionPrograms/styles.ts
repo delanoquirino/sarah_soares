@@ -1,5 +1,4 @@
-import { Button } from './../Button/style';
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
 export const SectionContainer = styled.div`
  background-color: #130D2E;
@@ -15,12 +14,11 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
   justify-content: center;
-  padding-top: 8em;
-  padding-bottom: 8em;
+  gap: 8rem;
   
   @media (max-width: 640px) {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
   
 
@@ -33,7 +31,7 @@ export const Container = styled.div`
 `
 
 export const Container_Content = styled.div`
-  
+ 
   h1 {
     color: #EC1C23;
    

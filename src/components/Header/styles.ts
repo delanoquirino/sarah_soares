@@ -8,6 +8,7 @@ export const Header = styled.header`
     background: black;
     position: fixed;
     width: 100%;
+    z-index: 99999;
 `
 export const Container = styled.div`
     display: flex;

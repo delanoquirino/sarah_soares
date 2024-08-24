@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 
 export const SectionContainer = styled.div`
   background-color: #ffff;
-  border-top: 5px solid red;
 `;
 export const Container = styled.div`
   max-width: 1440px;

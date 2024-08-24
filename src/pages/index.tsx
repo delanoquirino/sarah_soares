@@ -1,9 +1,10 @@
 import Head from "next/head";
 
+import { SectionCertificates } from "@/components/SectionCertificates";
+import { SectionContact } from "@/components/SectionContact";
 import { SectionHome } from "@/components/SectionHome";
 import { SectionInfo } from "@/components/SectionInfo";
 import { SectionPrograms } from "@/components/SectionPrograms";
-import { SectionContact } from "@/components/SectionContact";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <SectionHome />
         <SectionInfo />
         <SectionPrograms />
+        <SectionCertificates />
         <SectionContact />
       </main>
     </>

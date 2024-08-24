@@ -1,4 +1,4 @@
-import { useForm, SubmitHandler } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 
 // react-icons
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
@@ -24,6 +24,8 @@ export const SectionContact = () => {
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     console.log(data);
   };
+  const dataAtual = new Date();
+  const ano = dataAtual.getFullYear();
   return (
     <>
       <S.SectionContainer >
@@ -31,14 +33,14 @@ export const SectionContact = () => {
           <S.Content id="sectionContact">
             <h2>Entre em contato</h2>
             <p>
-             Estou animada para ajudá-lo a alcançar seus objetivos de condicionamento físico! Se você está pronto para embarcar em uma jornada de transformação, entre em contato comigo hoje mesmo.
+              Estou animada para ajudá-lo a alcançar seus objetivos de condicionamento físico! Se você está pronto para embarcar em uma jornada de transformação, entre em contato comigo hoje mesmo.
             </p>
             <S.Icon>
               <S.Icon_Item href="https://wa.link/67z1ua" target="_blank">
                 <BsWhatsapp />
                 <span>(86) 99466-4490</span>
               </S.Icon_Item>
-              <S.Icon_Item href="https://www.instagram.com/treinadora_sarahsoares/" target="_blank">
+              <S.Icon_Item href="https://www.instagram.com/sarahsoares_treinadora/" target="_blank">
                 <BsInstagram /> <span>@treinadora_sarahsoares</span>
               </S.Icon_Item>
             </S.Icon>
@@ -65,24 +67,24 @@ export const SectionContact = () => {
         <S.Footer_Icons>
           <div>
             <Link href="/">
-            <MdOutlineEmail />
+              <MdOutlineEmail />
             </Link>
-            
+
           </div>
           <div>
-            <Link  href="https://wa.link/67z1ua" target="_blank">
+            <Link href="https://wa.link/67z1ua" target="_blank">
               <BsWhatsapp />
             </Link>
           </div>
           <div>
             <Link href="https://www.instagram.com/treinadora_sarahsoares/"
-            target="_blank">
+              target="_blank">
               <BsInstagram />
             </Link>
           </div>
         </S.Footer_Icons>
         <span>
-          Sarah Soares - Copyright ® 2023 - Todos os Direitos Reservados.
+          Sarah Soares - Copyright ® {ano} - Todos os Direitos Reservados.
         </span>
       </S.Footer>
     </>
