@@ -15,6 +15,8 @@ export const Container = styled.div`
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
+    padding: 30px;
+    gap: 20px;
   }
 `;
 
@@ -76,8 +78,10 @@ export const FormContainer = styled.form`
   padding: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   width: 100%;
-  @media (max-width: 1024px) {
+  @media (max-width: 824px) {
     margin-top: 40px;
+    padding: 10px;
+    grid-template-columns: repeat(1, 1fr);
   }
 `;
 
