@@ -33,7 +33,7 @@ export const SectionContact = () => {
           <S.Content id="sectionContact">
             <h2>Entre em contato</h2>
             <p>
-              Estou animada para ajudá-lo a alcançar seus objetivos de condicionamento físico! Se você está pronto para embarcar em uma jornada de transformação, entre em contato comigo hoje mesmo.
+              Quer começar a treinar alguma modalidade esportiva e não sabe por onde começar? Vem comigo que te ajudo! Uma boa preparação irá te ajudar a chegar ao seu objetivo
             </p>
             <S.Icon>
               <S.Icon_Item href="https://wa.link/67z1ua" target="_blank">
@@ -46,20 +46,83 @@ export const SectionContact = () => {
             </S.Icon>
           </S.Content>
           <S.FormContainer onSubmit={handleSubmit(onSubmit)}>
-            <h3>Mande sua Mensagem agora !</h3>
+
+
             <S.FormData>
               <S.FLabel>Nome:</S.FLabel>
               <S.FInput type="text" name="nome" />
             </S.FormData>
             <S.FormData>
               <S.FLabel>Email:</S.FLabel>
-              <S.FInput type="email" name="email" />
+              <S.FInput type="text" name="email" />
             </S.FormData>
             <S.FormData>
-              <S.FLabel>Mensagem:</S.FLabel>
-              <S.FTextArea name="mensagem" rows={5} cols={40} />
+              <S.FLabel>Idade:</S.FLabel>
+              <S.FInput type="email" name="age" />
             </S.FormData>
+            <S.FormData>
+              <S.FLabel>Peso:</S.FLabel>
+              <S.FInput type="email" name="weight" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Altura:</S.FLabel>
+              <S.FInput type="email" name="height" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Contato:</S.FLabel>
+              <S.FInput type="email" name="contact" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Endereço:</S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Possui alguma doença crônica? Se sim,qual?</S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Faz uso de algum medicamento?se sim, qual?
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Tem alguma lesão?se sim, qual?
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Sente dor? Onde? De 0 a 10 qual nível da dor?
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Qual sua maior dificuldade no dia a dia?
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Qual seu maior objetivo
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Como é sua alimentação? Ruim;regular; ótima
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Dorme bem? Quantas horas por dia?
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+            <S.FormData>
+              <S.FLabel>Diga em uma palavra o que define sua saúde hoje
+              </S.FLabel>
+              <S.FInput type="email" name="adress" />
+            </S.FormData>
+
             <S.FButton type="submit">Enviar</S.FButton>
+
           </S.FormContainer>
         </S.Container>
       </S.SectionContainer>

@@ -1,10 +1,9 @@
 import { styled } from "styled-components";
 
 export const SectionContainer = styled.div`
- background-color: #130D2E;
- border-top: 5px solid red;
-
-`
+  background-color: #130d2e;
+  border-top: 5px solid red;
+`;
 export const Container = styled.div`
   max-width: 1440px;
   min-height: 100vh;
@@ -15,57 +14,45 @@ export const Container = styled.div`
   align-content: center;
   justify-content: center;
   gap: 8rem;
-  
+
   @media (max-width: 640px) {
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  
 
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column-reverse;
     min-height: 50vh;
-    
   }
-`
+`;
 
 export const Container_Content = styled.div`
- 
   h1 {
-    color: #EC1C23;
-   
+    color: #ec1c23;
+
     margin-bottom: 40px;
     text-transform: uppercase;
-
-    
   }
   margin-bottom: 60px;
-  p { 
+  p {
     color: #fff;
-   }
-
+  }
 
   button {
     width: 100%;
   }
-  
+
   button {
     margin-top: 20px;
   }
- 
-
-`
-
-
+`;
 
 export const Container_Image = styled.div`
- 
   display: flex;
   align-items: center;
   justify-content: center;
   @media (max-width: 1024px) {
-   display: none;
-    
+    display: none;
   }
-`
+`;

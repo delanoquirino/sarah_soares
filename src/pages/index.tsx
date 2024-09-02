@@ -1,5 +1,6 @@
 import Head from "next/head";
 
+import { SectionCarousel } from "@/components/SectionCarousel";
 import { SectionCertificates } from "@/components/SectionCertificates";
 import { SectionContact } from "@/components/SectionContact";
 import { SectionHome } from "@/components/SectionHome";
@@ -21,6 +22,7 @@ export default function Home() {
       <main>
         <SectionHome />
         <SectionInfo />
+        <SectionCarousel />
         <SectionPrograms />
         <SectionCertificates />
         <SectionContact />

@@ -6,12 +6,12 @@ export const SectionContainer = styled.div`
 export const Container = styled.div`
   max-width: 1440px;
   min-height: 70vh;
-  padding: 30px;
+  padding: 100px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   align-items: center;
-
+  gap: 50px;
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
@@ -69,15 +69,15 @@ export const Icon_Item = styled.a`
 `;
 
 export const FormContainer = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-start;
+  gap: 30px;
+  padding: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
+  width: 100%;
   @media (max-width: 1024px) {
     margin-top: 40px;
-    width: 100%;
   }
 `;
 
